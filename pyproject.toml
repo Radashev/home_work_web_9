@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "web-9-2"
+version = "0.1.0"
+description = ""
+authors = ["Vasyl Radashev <vasiliyradashev24@gmail.com>"]
+readme = "README.md"
+packages = [{include = "web_9"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+scrapy = "^2.11.2"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+mongoengine = "^0.28.2"
+connect = "^0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
